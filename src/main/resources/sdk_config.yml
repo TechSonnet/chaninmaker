@@ -4,13 +4,13 @@ chain_client:
   # 组织ID
   org_id: "TestCMorg1"
   # 客户端用户私钥路径
-  user_key_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/TlsKey.key"
+  user_key_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.tls.key"
   # 客户端用户证书路径
-  user_crt_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/TlsCert.crt"
+  user_crt_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.tls.crt"
   # 客户端用户交易签名私钥路径(若未设置，将使用user_key_file_path)
-  user_sign_key_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/SignKey.key"
+  user_sign_key_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.sign.key"
   # 客户端用户交易签名证书路径(若未设置，将使用user_crt_file_path)
-  user_sign_crt_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/SignCert.crt"
+  user_sign_crt_file_path: "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.sign.crt"
 
   retry_limit: 10
   # 同步交易结果模式下，每次轮训交易结果时的等待时间，单位：ms 删除此项或设为<=0则使用默认值 500
