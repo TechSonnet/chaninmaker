@@ -26,7 +26,7 @@ public class DemoApplication  {
         Thread.sleep(1000 * 10);
 
         //退出
-        System.exit(0);
+//        System.exit(0);
     }
 }
 

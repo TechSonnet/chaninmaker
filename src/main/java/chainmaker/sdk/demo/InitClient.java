@@ -14,11 +14,11 @@ import java.util.List;
 
 public class InitClient {
 
-    static final String CLIENT1_KEY_PATH = "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.sign.key";
-    static final String CLIENT1_CERT_PATH = "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.sign.crt";
+    static final String CLIENT1_KEY_PATH = "src/main/resources/crypto-config/org1/user/cmtestuser1/cmtestuser1.sign.key";
+    static final String CLIENT1_CERT_PATH = "src/main/resources/crypto-config/org1/user/cmtestuser1/cmtestuser1.sign.crt";
 
-    static String CLIENT1_TLS_KEY_PATH = "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.tls.key";
-    static String CLIENT1_TLS_CERT_PATH = "src/main/resources/crypto-config/org1/cmtestuser1/cmtestuser1.tls.crt";
+    static String CLIENT1_TLS_KEY_PATH = "src/main/resources/crypto-config/org1/user/cmtestuser1/cmtestuser1.tls.key";
+    static String CLIENT1_TLS_CERT_PATH = "src/main/resources/crypto-config/org1/user/cmtestuser1/cmtestuser1.tls.crt";
 
     static final String ORG_ID1 = "TestCMorg1";
 
