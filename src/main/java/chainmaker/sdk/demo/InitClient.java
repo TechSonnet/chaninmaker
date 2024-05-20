@@ -6,6 +6,7 @@ import org.chainmaker.sdk.User;
 import org.chainmaker.sdk.config.NodeConfig;
 import org.chainmaker.sdk.config.SdkConfig;
 import org.chainmaker.sdk.utils.FileUtils;
+import org.springframework.context.annotation.Bean;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;
@@ -24,9 +25,9 @@ public class InitClient {
 
     static String SDK_CONFIG = "sdk_config.yml";
 
-    static ChainClient chainClient;
+    public static ChainClient chainClient;
     static ChainManager chainManager;
-    static User user;
+    public static User user;
 
     public static void inItChainClient() throws Exception {
         Yaml yaml = new Yaml();

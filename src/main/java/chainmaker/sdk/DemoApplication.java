@@ -1,5 +1,9 @@
-package chainmaker.sdk.demo;
+package chainmaker.sdk;
 
+import chainmaker.sdk.demo.ChainConfig;
+import chainmaker.sdk.demo.Contract;
+import chainmaker.sdk.demo.InitClient;
+import chainmaker.sdk.demo.Subscribe;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
